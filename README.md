@@ -146,6 +146,7 @@ Claude will:
 Request permission to access your emails
 Execute the appropriate MCP tools
 Present the analyzed information in a conversational format
+
    
 
 <!-- CONTRIBUTING -->
@@ -159,6 +160,7 @@ Stars ⭐ from you will brighten our day! Thanks for checking out our project.
 3. Commit your Changes (`git commit -m 'Add some NewFeature'`)
 4. Push to the Branch (`git push origin feature/NewFeature`)
 5. Open a Pull Request
+
 
 
 <!-- CONTACT -->
