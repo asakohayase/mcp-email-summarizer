@@ -21,8 +21,8 @@
 
 <!-- ABOUT THE PROJECT -->
 ## Features
-*Email Access: Fetch emails from specific senders or time periods
-*Smart Summaries: Ask Claude to summarize email content in various ways
+* Email Access: Fetch emails from specific senders or time periods
+* Smart Summaries: Ask Claude to summarize email content in various ways
 
 <br />
 <br />
@@ -60,7 +60,7 @@ source .venv/bin/activate  # On Windows: .venv\Scripts\activate
 
 Install dependencies:
 ```
-uv add "mcp[cli]" httpx google-api-python-client google-auth-oauthlib
+uv install
 ```
 
 ### Set Up Gmail API Access
