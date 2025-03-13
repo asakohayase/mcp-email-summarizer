@@ -43,7 +43,7 @@
 - Claude Desktop
 - Google account with Gmail
 
-###Installation
+### Installation
 
 Clone the repository:
 ```
@@ -63,7 +63,7 @@ Install dependencies:
 uv add "mcp[cli]" httpx google-api-python-client google-auth-oauthlib
 ```
 
-###Set Up Gmail API Access
+### Set Up Gmail API Access
 
 Enable Gmail API:
 1. Go to Google Cloud Console.
@@ -98,7 +98,7 @@ uv credentials.py
 ```
 
 
-###Configure Claude Desktop
+### Configure Claude Desktop
 
 Create or edit the Claude Desktop configuration file:
 ```
@@ -127,7 +127,7 @@ You need to:
 Replace /Users/username/.local/bin/uv with the full path to your uv executable (find using which uv on macOS/Linux or where uv on Windows).
 Replace /Users/username/projects/mcp_email_summarizer with the absolute path to your project directory.
 
-###Usage
+### Usage
 Open Claude Desktop
 Ask questions like:
 
