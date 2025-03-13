@@ -47,7 +47,7 @@
 
 Clone the repository:
 ```
-clone https://github.com/yourusername/mcp-email-summarizer.git
+clone https://github.com/asakohayase/mcp-email-summarizer
 cd mcp-email-summarizer
 ```
 
