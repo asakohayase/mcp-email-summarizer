@@ -132,8 +132,11 @@ Open Claude Desktop
 Ask questions like:
 
 "Summarize my emails from newsletter@example.com in the past week"
+
 "What are the main topics in my emails from the last month?"
+
 "Find action items in my recent emails"
+
 "Analyze the sentiment of emails from my team"
 
 
