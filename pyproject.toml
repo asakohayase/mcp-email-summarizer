@@ -3,5 +3,5 @@ name = "mcp-email-summarizer"
 version = "0.1.0"
 description = "A Model Context Protocol (MCP) server that connects Claude Desktop to Gmail for email summarization"
 readme = "README.md"
-requires-python = ">=3.8"
+requires-python = ">=3.10"
 dependencies = []
