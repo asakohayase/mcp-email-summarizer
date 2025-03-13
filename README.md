@@ -66,24 +66,24 @@ uv install
 ### Set Up Gmail API Access
 
 Enable Gmail API:
-1. Go to Google Cloud Console.
-2. Create a new project (e.g., "MCP Email Summarizer").
-3. Navigate to "APIs & Services" > "Library," search for "Gmail API," and enable it.
+- Go to Google Cloud Console.
+- Create a new project (e.g., "MCP Email Summarizer").
+- Navigate to "APIs & Services" > "Library," search for "Gmail API," and enable it.
 
 
 Create OAuth Credentials:
-4. Go to "APIs & Services" > "Credentials."
-5. Click "CONFIGURE CONSENT SCREEN"
-6. Select "External" in User Type
-7. Fill in App Information and add your email address
-8. Go to "Scopes" and add "https://www.googleapis.com/auth/gmail.readonly"
-9. Go to "Test users" and add your email address
-10. Go to "Credentials" and create an OAuth client ID (Desktop application)
-11. Download the credentials JSON file and save it as credentials.json in your project folder
+- Go to "APIs & Services" > "Credentials."
+- Click "CONFIGURE CONSENT SCREEN"
+- Select "External" in User Type
+- Fill in App Information and add your email address
+- Go to "Scopes" and add "https://www.googleapis.com/auth/gmail.readonly"
+- Go to "Test users" and add your email address
+- Go to "Credentials" and create an OAuth client ID (Desktop application)
+- Download the credentials JSON file and save it as credentials.json in your project folder
 
 
 Authenticate with Gmail:
-12. Create and run the following script to generate your authentication token:
+- Create and run the following script to generate your authentication token:
 ```
 from google_auth_oauthlib.flow import InstalledAppFlow
 SCOPES = ['https://www.googleapis.com/auth/gmail.readonly']
@@ -92,7 +92,7 @@ creds = flow.run_local_server(port=0)
 with open('token.json', 'w') as token:
     token.write(creds.to_json())
 ```
-Run it:
+- Run it:
 ```
 uv credentials.py
 ```
