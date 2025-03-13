@@ -1,7 +1,7 @@
 [project]
 name = "mcp-email-summarizer"
 version = "0.1.0"
-description = "Add your description here"
+description = "A Model Context Protocol (MCP) server that connects Claude Desktop to Gmail for email summarization"
 readme = "README.md"
 requires-python = ">=3.8"
 dependencies = []
