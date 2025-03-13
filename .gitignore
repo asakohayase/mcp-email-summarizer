@@ -1,0 +1,33 @@
+# Authentication files
+credential.py
+credentials.json
+token.json
+client_secret*.json
+*.dat
+
+# Python virtual environment
+.venv/
+venv/
+env/
+
+# Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+
+# Local development settings
+.env
+.idea/
+.vscode/
+
+# Logs
+*.log
+
+# Output files
+formatted_emails.txt
