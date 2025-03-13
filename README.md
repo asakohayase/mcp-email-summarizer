@@ -28,10 +28,10 @@
 <br />
 
 ## Built With
-*Python 3.11 - Core language
-*MCP - Model Context Protocol for AI tool integration
-*Google Gmail API - Email access
-*Claude Desktop - AI assistant with MCP support
+* Python 3.11 - Core language
+* MCP - Model Context Protocol for AI tool integration
+* Google Gmail API - Email access
+* Claude Desktop - AI assistant with MCP support
   
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
