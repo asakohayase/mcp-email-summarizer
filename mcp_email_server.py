@@ -1,4 +1,4 @@
-from typing import List, Dict, Any, Optional
+from typing import List, Dict, Any
 import os
 import base64
 from datetime import datetime, timedelta
